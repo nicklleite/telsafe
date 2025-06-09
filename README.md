@@ -107,6 +107,30 @@ Tabela: `telsafe_reports`
 
 ---
 
+## ❗️Diferença entre TelSafe e identificadores de chamada (ex: Whoscall)
+
+Enquanto aplicativos como **Whoscall**, **Truecaller** e similares atuam como **identificadores de chamada** em tempo real, geralmente através da instalação de apps com acesso à agenda e permissões amplas, o **TelSafe** propõe algo **muito mais simples, direto e privado**:
+
+| Característica                         | Identificadores (Whoscall, etc)    | TelSafe                                |
+|----------------------------------------|-------------------------------------|-----------------------------------------|
+| Tipo de serviço                        | Identificador de chamada            | Consulta pontual por número             |
+| Forma de uso                           | App instalado no celular            | Web/app com busca manual                |
+| Privacidade                            | Acesso à agenda e chamadas          | Sem coleta de dados sensíveis           |
+| Armazenamento de números               | Base extensa, possivelmente vendida | Apenas hash dos números                 |
+| Objetivo principal                     | Identificar chamadas e spam         | Confirmar se número é golpe ou real     |
+| Dados exibidos                         | Nome, operadora, tags de spam       | Apenas se for golpe e com máscara       |
+| Enfoque principal                      | Bloqueio/identificação de ligações  | Consulta pontual de veracidade          |
+
+**TelSafe** não tem o objetivo de substituir identificadores de chamada. Ele é uma camada extra de verificação rápida, **com foco em proteção contra golpes e sem comprometer a privacidade dos usuários legítimos.**
+
+---
+
+## 🧭 Missão
+
+Reduzir golpes por aplicativos de mensagens com uma base colaborativa e segura, onde qualquer pessoa possa consultar um número e descobrir — de forma anônima — se ele já foi usado em tentativas de fraude.
+
+---
+
 ## 📌 Status Atual
 
 - [x] Escopo inicial definido
